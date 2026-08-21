@@ -2,10 +2,10 @@
   hosts: local
   connection: local
   vars:
-    name: uday
+    username: uday
     mobile: 929090
     email: uday@gmail.com
   tasks:
     - name: print the variable
       ansible.builtin.debug:
-        msg: "name is {{ name}} mobile is {{ mobile}} email is {{ email }}"
+        msg: "username is {{ username}} mobile is {{ mobile}} email is {{ email }}"
