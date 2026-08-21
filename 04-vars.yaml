@@ -6,7 +6,7 @@
     mobile: 929090
     email: uday@gmail.com
   tasks:
-    - name: print the variable
+    - name: print the details
       vars:
         username: kiran
       ansible.builtin.debug:
