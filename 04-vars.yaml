@@ -9,5 +9,7 @@
     - name: print the details
       vars:
         username: kiran
+        mobile: 929090
+        email: kiran@gmail.com
       ansible.builtin.debug:
         msg: "username is {{ username}} mobile is {{ mobile}} email is {{ email }}"
