@@ -6,8 +6,8 @@
     mobile: 929090
     email: uday@gmail.com
   tasks:
-    vars:
-      username: kiran
     - name: print the variable
+      vars:
+      username: kiran
       ansible.builtin.debug:
         msg: "username is {{ username}} mobile is {{ mobile}} email is {{ email }}"
